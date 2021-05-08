@@ -1,14 +1,17 @@
 {
     "name": "pay_test/package",
-    "description": "This is a testing package",
+    "description": "Testing composer",
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Anboz",
             "email": "sultonovanboz@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
-    	"php": ">=7.4"
+        "php": ">=7.4"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5.4"
@@ -16,7 +19,7 @@
     "autoload": {
         "psr-4": {
             "PayTest\\": "src/"
-        }        
+        }
     },
     "autoload-dev": {
         "psr-4": {
