@@ -1,5 +1,5 @@
 {
-    "name": "pay/package",
+    "name": "pay_test/package",
     "description": "This is a testing package",
     "authors": [
         {
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Pay\\": "src/"         
+            "PayTest\\": "src/"
         }        
     },
     "autoload-dev": {

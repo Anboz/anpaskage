@@ -9,6 +9,6 @@ require 'vendor/autoload.php';
 
 $message = $_GET['message'];
 
-$exampleClass = new \Pay\ExapleClass($message);
+$exampleClass = new \PayTest\ExapleClass($message);
 
 $exampleClass->say();
